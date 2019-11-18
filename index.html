@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>.red {color: red;}</style>
+</head>
+<body>
+    <h1>test</h1>
+    <div>
+        <input type="text" name="name" id="name_input" value="Xxxx">
+    </div>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Choose your size</legend>
+                <div class="input-wrap">
+                    <input type="radio" id="sizeS" name="size" value="S" /><label for="sizeS">S</label>
+                </div>
+                <div class="input-wrap">
+                    <input type="radio" id="sizeM" name="size" value="M" /><label for="sizeM">M</label>
+                </div>
+                <div class="input-wrap">
+                    <input type="radio" id="sizeL" name="size" value="L" /><label for="sizeL">L</label>
+                </div>  
+            </fieldset>  
+            <fieldset>
+                <legend>Choose your color</legend>
+                <div class="input-wrap">
+                    <input type="checkbox" id="color1" name="color" value="1" /><label for="color1">1</label>
+                </div>
+                <div class="input-wrap">
+                    <input type="checkbox" id="color2" name="color" value="2" /><label for="color2">2</label>
+                </div>
+                <div class="input-wrap">
+                    <input type="checkbox" id="color3" name="color" value="3" /><label for="color3">3</label>
+                </div> 
+                <div class="input-wrap">
+                    <input type="checkbox" id="color4" name="color" value="4" /><label for="color4">4</label>
+                </div>
+                <div class="input-wrap">
+                    <input type="checkbox" id="color5" name="color" value="5" /><label for="color5">5</label>
+                </div> 
+            </fieldset>    
+            <fieldset>
+                <legend>Choose manufacturer</legend>
+                <select id="manufacturer" multiple>
+                    <option value="aaa">aaa</option>
+                    <option value="b&c">b&c</option>
+                    <option value="ddd">ddd</option>
+                    <option value="eee">eee</option>
+                </select>
+            </fieldset>  
+            <fieldset>
+                <legend>Sell out</legend>
+                <div class="input-wrap">
+                    <input type="checkbox" id="sellOut" name="sell-out" value="-1" />
+                </div>
+            </fieldset>  
+        </form>
+    </div>
+    <script src="sandbox.js"></script>
+</body>
+</html>
